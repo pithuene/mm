@@ -30,24 +30,6 @@ void init_window(WINDOW * win) {
     }
 }
 
-/**
- * The folder structure is expected to be as follows:
- *
- * Show 1
- *  |- Season 1
- *  |   |- Episode 1
- *  |   |- ...
- *  |   |- Episode 10
- *  |- Season 2
- *      |- Episode 1
- *      |- ...
- *      |- Episode 10
- * Show 2
- *  |- Season 1
- *      |- Episode 1
- *      |- ...
- *      |- Episode 10
- */
 
 struct Season {
     char * name;
